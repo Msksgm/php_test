@@ -1,13 +1,10 @@
 <?php
 
-// 変数
+// 定数
 
-$test_1 = 123;
-$test_2 = 456;
+const MAX = 'TEST';
 
-$test_3 = $test_1 . $test_2;
-
-var_dump($test_3);
+var_dump(MAX);
 
 
 ?>
