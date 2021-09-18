@@ -1,10 +1,12 @@
 <?php
 
-echo('こちらはPHPです。');
+// 変数
 
-echo('<br>');
-echo(123);
-// コメントアウト
+$test = 123;
+$test = 'テストです';
+
+var_dump($test);
+echo($test);
 
 
 ?>
