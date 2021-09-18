@@ -2,11 +2,12 @@
 
 // 変数
 
-$test = 123;
-$test = 'テストです';
+$test_1 = 123;
+$test_2 = 456;
 
-var_dump($test);
-echo($test);
+$test_3 = $test_1 . $test_2;
+
+var_dump($test_3);
 
 
 ?>
