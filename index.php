@@ -3,10 +3,12 @@
 // 条件分岐
 
 
-$height = 90;
+$height = 91;
 
 if ($height == 90){
     echo '身長' . $height . 'です';
+} else {
+    echo '身長' . 90 . 'ではありません';
 }
 
 
