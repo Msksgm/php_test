@@ -100,5 +100,12 @@ var_dump(checkPostalCode($postalCode));
 
 global $globalVariable;
 
+// ファイルの読み込み
+
+require 'common.php';
+
+echo __DIR__;
+echo __FILE__;
+
 ?>
 
