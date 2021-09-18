@@ -96,5 +96,9 @@ function checkPostalCode($str){
 
 var_dump(checkPostalCode($postalCode));
 
+// 変数のスコープ
+
+global $globalVariable;
+
 ?>
 
