@@ -2,6 +2,8 @@
 
 echo $test;
 
+exit;
+
 phpinfo();
 
 ?>
