@@ -24,5 +24,23 @@ $array_member = [
 ];
 
 echo $array_member['hobby'];
+
+$array_member_2 = [
+    '本田' => [
+        'height' => 170,
+        'hobby' => 'サッカー'
+    ],
+    '香川' => [
+        'height' => 185,
+        'hobby' => 'サッカー'
+    ]
+];
+
+echo '<pre>';
+var_dump($array_member_2);
+echo '</pre>';
+
+
+
 ?>
 
