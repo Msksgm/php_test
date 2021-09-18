@@ -70,5 +70,17 @@ echo preg_match('/文字列/', $str_3);
 
 echo mb_substr('あいう', 2);
 
+// 配列の関数
+
+// 配列に配列を追加する
+
+$array = ['リンゴ', 'みかん'];
+
+array_push($array, ["ぶどう"]);
+
+echo '<pre>';
+var_dump($array);
+echo '</pre>';
+
 ?>
 
