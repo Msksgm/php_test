@@ -1,18 +1,15 @@
 <?php
 
-// foreach
-
-
-$members = [
-    'name' => '本田',
-    'height' => 170,
-    'hobby' => 'サッカー'
-];
-
-foreach($members as $key => $value){
-    echo $key . "は" . $value . "です";
+for ($i = 0; $i < 10; $i++ ){
+    echo $i;
 }
 
+$j = 0;
+
+while($j <= 5){
+    echo $j;
+    $j++;
+}
 
 ?>
 
